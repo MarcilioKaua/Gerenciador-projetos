@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "name": "projeto 01",
+      "budget": "2999",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "projeto 2",
+      "budget": "2000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Fazer o design",
+          "cost": "1000",
+          "description": "Realizar o desgin responsivo",
+          "id": "a855b205-da5d-4c7d-8616-d6ba9921a449"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
